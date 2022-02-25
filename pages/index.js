@@ -25,7 +25,7 @@ export default function Home({ projects }) {
   );
 }
 
-const getStaticProps = async () => {
+const getServerSideProps = async () => {
   const res = await fetch(`${API_URL}/projects`);
   const projects = await res.json();
   console.log(res);
@@ -37,4 +37,4 @@ const getStaticProps = async () => {
   };
 };
 
-export { getStaticProps };
+export { getServerSideProps };
