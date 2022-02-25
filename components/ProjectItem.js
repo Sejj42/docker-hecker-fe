@@ -17,7 +17,7 @@ const ProjectItem = ({ project }) => {
         </div>
         <div className={styles.info}>
           <span>
-            {new Date(project.date).toLocaleDateString("en-GB")} at{" "}
+            {new Date(project.date).toLocaleDateString("en-gb")} at{" "}
             {project.time}
           </span>
           <h3>{project.name}</h3>

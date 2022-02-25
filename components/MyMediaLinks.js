@@ -23,17 +23,17 @@ const MyMediaLinks = () => {
           className={styles.youtube}
         />
       </a>
-      <a href="#" target="blank" className={styles.social}>
+      <a href="https://linkedin.com" target="blank" className={styles.social}>
         <FontAwesomeIcon
           icon={faLinkedin}
           size="2x"
           className={styles.linkedin}
         />
       </a>
-      <a href="#" target="blank" className={styles.social}>
+      <a href="https://github.com" target="blank" className={styles.social}>
         <FontAwesomeIcon icon={faGithub} size="2x" className={styles.github} />
       </a>
-      <a target="blank" className={styles.social} href="#">
+      <a target="blank" className={styles.social} href="https://twitter.com">
         <FontAwesomeIcon
           icon={faTwitter}
           size="2x"
