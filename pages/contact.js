@@ -6,7 +6,7 @@ import Layout from "@/components/Layout";
 const ContactPage = () => {
   return (
     <Layout title="Contact">
-      <h1>contact docker hecker</h1>
+      <h1>contect docker hecker</h1>
       <ContactForm />
     </Layout>
   );

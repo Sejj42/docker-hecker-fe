@@ -5,10 +5,9 @@ import Layout from "@/components/Layout";
 const AboutPage = () => {
   return (
     <Layout title="about docker hecker">
-      <h1>about</h1>
-      <p>docker hecker</p>
-      <p>docker hecking</p>
-      <p>Version: 1.0.0</p>
+      <h1>abouet</h1>
+      <p>docker hecker hecking</p>
+      <p>hecker version: 1.0.0 </p>
     </Layout>
   );
 };
