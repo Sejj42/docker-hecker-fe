@@ -14,17 +14,17 @@ const Header = () => {
         <ul>
           <li>
             <Link href="/projects">
-              <a>Projects</a>
+              <a>projects</a>
             </Link>
           </li>
           <li>
             <Link href="/about">
-              <a>About</a>
+              <a>abouet</a>
             </Link>
           </li>
           <li>
             <Link href="/contact">
-              <a>Contact</a>
+              <a>contect</a>
             </Link>
           </li>
         </ul>
