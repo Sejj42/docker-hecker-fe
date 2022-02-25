@@ -2,6 +2,7 @@
 import Layout from "@/components/Layout";
 import ProjectItem from "@/components/ProjectItem";
 import Link from "next/link";
+import { API_URL } from "../config";
 
 export default function Home({ projects }) {
   return (
@@ -25,7 +26,7 @@ export default function Home({ projects }) {
 }
 
 const getStaticProps = async () => {
-  const res = await fetch("http://localhost:3000/api/projects");
+  const res = await fetch(`${API_URL}/projects`);
   const projects = await res.json();
   console.log(res);
 
