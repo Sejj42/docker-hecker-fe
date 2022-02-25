@@ -5,7 +5,6 @@ import { API_URL } from "@/config/index";
 import Link from "next/link";
 
 const ProjectsPage = ({ projects }) => {
-  console.log(projects);
   return (
     <Layout>
       <h1>all docker hecking projects</h1>
